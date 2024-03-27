@@ -1,0 +1,34 @@
+body{
+    height: 100vh;   
+}
+
+#calculator{
+margin: 10vh auto; 
+padding: 2em;
+box-sizing: 0 0 1em #666;
+border-radius: .5em;  
+background: #eee; 
+display: flex; 
+align-items: center; 
+justify-content: center;
+}
+
+.click{
+display: flex; 
+align-items: center;
+justify-content: center;   
+}
+
+button{
+border: 0; 
+outline: none;   
+background: #ccc;
+width: 3em;
+margin: .5em .3em;
+border-radius: .5em;
+box-shadow: 3px 3px #666;
+}
+
+button:active{
+box-shadow:1px 1px #666;    
+}
